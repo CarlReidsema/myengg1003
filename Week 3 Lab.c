@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main()
-{tuytuytuytu
+{
     int x, y, z;
     printf("Enter a number:");
     scanf("%d", &x);
