@@ -147,23 +147,30 @@ return 0;
 
 
 
+/*
+Working geometric sequence calc
+#include <stdlib.h>
+int main() {
+    int X=0;
+    float Xn=2;                                                          // Input the initial number
+    float k;
+    float Xnm=3;                                                         //  Input second number in sequence
+    float Sn;
+    float a=0;
+    k=(Xnm/Xn);
+    Sn=k;
+    while (X<11)                                                        //  the number of itterations to be completed
+        {
+          (X++);                                                        // Adds 1 to the cycle count
+          (Xnm=Sn*Xn);                                                    //  Gives first itteration of Second number
+          printf("Itteration number %d: %f\n",X ,Xnm);
+          Xn=Xnm;
+          a=a+Xnm;
+        }
+    printf("The sum of the intergers is %f\n",a);
 
 
-#include <stdio.h>
-#include <math.h>
+return 0;
+}
 
-int main()
-{
-    int xn, x0=2, x1=4, k=0;
-   {
-
-   } while(xn<10){
-
-
-    k=x0*x1;
-    k++;
-
-printf("%d\n", xn);
-
-    }
-
+*/
