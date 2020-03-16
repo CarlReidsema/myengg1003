@@ -174,3 +174,19 @@ return 0;
 }
 
 */
+
+/*
+Dodgy Attempt at Assessment 
+#include <stdio.h>
+main(){
+float x0 = 0.65; // Initial value float xn; // Next value
+float xnm1=0; // Previous value
+int n = 1; // Counter
+  // Print initial value
+
+while((n<=1) && (n<=9)){
+      x0 = ((0.2*xnm1)+5);// calculate and print other values
+    n++;
+    printf("%f", x0);
+}}
+*/
