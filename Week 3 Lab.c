@@ -190,3 +190,28 @@ while((n<=1) && (n<=9)){
     printf("%f", x0);
 }}
 */
+ /*
+ 
+ #include <stdio.h>
+main(){
+int xn=1; // Initial value 
+    int xnm1=4; // Previous value
+    
+int n = 0; // Counter
+  // Print initial value
+    printf("%d " "%d\n", n, xnm1);
+  
+    while((n<10)){
+        n++;
+        if (xnm1 > 20) {
+            xn = (xnm1)/4;
+     printf("%d " "%d\n", n, xn);
+        }
+        else xn=(2*xnm1)+2;{
+            printf("%d " "%d\n", n, xn);
+        }
+    
+        
+        xnm1=xn;
+        }return 0;}
+*/
