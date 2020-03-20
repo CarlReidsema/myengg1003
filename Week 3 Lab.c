@@ -205,7 +205,7 @@ int n = 0; // Counter
         n++;
         if (xnm1 > 20) {
             xn = (xnm1)/4;
-     printf("%d " "%d\n", n, xn);
+     
         }
         else xn=(2*xnm1)+2;{
             printf("%d " "%d\n", n, xn);
@@ -214,4 +214,5 @@ int n = 0; // Counter
         
         xnm1=xn;
         }return 0;}
+
 */
