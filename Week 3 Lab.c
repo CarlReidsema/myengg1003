@@ -216,3 +216,43 @@ int n = 0; // Counter
         }return 0;}
 
 */
+
+
+
+/* First part of assessment practice question
+#include <stdio.h>
+main(){
+float xn ; // Initial value float xn; // Next value
+float xnm1=0.65; // Previous value
+    
+int n = 0; // Counter
+  // Print initial value
+    printf("%d " "%f\n", n, xnm1);
+
+    while((n<9)){
+      xn = ((0.2*xnm1)+5);// calculate and print other values
+    n++;
+    printf("%d " "%f\n", n, xn);
+        xnm1=xn;
+}return 0;}
+*/
+/* second exit function*/
+/*
+#include <stdio.h>
+main(){
+float xn ; // Initial value float xn; // Next value
+float xnm1=0.65; // Previous value
+    
+int n = 0; // Counter
+  // Print initial value
+    printf("%d " "%f\n", n, xnm1);
+
+    while((n<9)){
+      xn = ((0.2*xnm1)+5);// calculate and print other values
+    n++;
+    printf("%d " "%f\n", n, xn);
+        if (xn - xnm1 <= (0.001))
+        return 0;
+        xnm1=xn;
+}return 0;}
+*/
